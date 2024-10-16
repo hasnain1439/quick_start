@@ -2,4 +2,14 @@
   #get-start{
     font-size: 10px !important;
   }
+  .titles{
+    font-size: 14px;
+  }
+  .watch{
+    font-size: 12px !important;
+  }
+  .brand{
+    width: 30px;
+    height: 30px !important;
+  }
 }
