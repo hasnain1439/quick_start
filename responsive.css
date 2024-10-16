@@ -1,0 +1,5 @@
+@media screen and (min-width:280px) and (max-width:560px) {
+  #get-start{
+    font-size: 10px !important;
+  }
+}

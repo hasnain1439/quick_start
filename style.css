@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "inter", sans-serif;
+}
+.navbar{
+    font-family: "Nunito Sans", sans-serif !important;
+}
+ul li a:hover{
+    color: #4A97B0  !important;
+}
+.main-img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.749);
+    width: 100%;
+    height: 100%;
+}
+.sm-card:hover i{
+    background: #4A97B0;
+    color: white;
+}
+.sm-card:hover h5{
+    color: #4A97B0;
+}
+hr{
+    width: 60px;
+    height: 3px;
+    background: rgb(56,141,168) !important;
+}
+.features .row .col-lg-5 .col-12:hover{
+    background: #F7FBFC;
+}
+.popular{
+    top: 2%;
+    right: 5%;
+}
+.bg-transparent:hover{
+    background: #4A97B0 !important;
+    color:white !important;
+}
+.contact i{
+    border: 2px dotted #4A97B0;
+}
+textarea{
+    height: 150px;
+    margin-bottom: 30px;
+}
+/* ------------- helper classes ---------- */
+.bg-sky{
+    background: #4A97B0 !important;
+}
+.bg-sky-c{
+    background: #F7FBFC;
+}
+.bg-gray{
+    background: rgb(248,251,252);
+}
+.heading-color{
+    color: #3e5055;
+}
+.sky-color{
+    color: #4A97B0;
+}
+.handing-color{
+    color: #3E5055;
+}
+.cursor-pointing{
+    cursor: pointer;
+}
+.fs-7{
+    font-size: 14px;
+}
+.borders{
+    border: 2px solid #4A97B0 !important;
+}
+.box-shadow{
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.1) !important; 
+}
